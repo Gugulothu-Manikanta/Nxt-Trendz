@@ -90,15 +90,24 @@
   font-size: 14px;
   font-weight: 400;
   font-family: 'Roboto';
+<<<<<<< HEAD
   color: white;
+=======
+  color: #ffffff;
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
   border: none;
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 6px;
   background-color: #0967d2;
   margin-top: 20px;
+<<<<<<< HEAD
   outline: none;
   cursor: pointer;
+=======
+  cursor: pointer;
+  outline: none;
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
 }
 
 @media screen and (min-width: 768px) {

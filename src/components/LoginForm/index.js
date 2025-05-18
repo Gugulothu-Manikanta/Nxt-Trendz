@@ -25,7 +25,10 @@ class LoginForm extends Component {
 
     Cookies.set('jwt_token', jwtToken, {
       expires: 30,
+<<<<<<< HEAD
       path: '/',
+=======
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
     })
     history.replace('/')
   }
@@ -45,6 +48,10 @@ class LoginForm extends Component {
     }
     const response = await fetch(url, options)
     const data = await response.json()
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
     if (response.ok === true) {
       this.onSubmitSuccess(data.jwt_token)
     } else {
@@ -54,6 +61,10 @@ class LoginForm extends Component {
 
   renderPasswordField = () => {
     const {password} = this.state
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
     return (
       <>
         <label className="input-label" htmlFor="password">
@@ -65,6 +76,10 @@ class LoginForm extends Component {
           className="password-input-field"
           value={password}
           onChange={this.onChangePassword}
+<<<<<<< HEAD
+=======
+          placeholder="Sample Password:rahul@2021"
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
         />
       </>
     )
@@ -72,6 +87,10 @@ class LoginForm extends Component {
 
   renderUsernameField = () => {
     const {username} = this.state
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
     return (
       <>
         <label className="input-label" htmlFor="username">
@@ -83,6 +102,10 @@ class LoginForm extends Component {
           className="username-input-field"
           value={username}
           onChange={this.onChangeUsername}
+<<<<<<< HEAD
+=======
+          placeholder="Sample Username:rahul"
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
         />
       </>
     )
@@ -91,25 +114,45 @@ class LoginForm extends Component {
   render() {
     const {showSubmitError, errorMsg} = this.state
     const jwtToken = Cookies.get('jwt_token')
+<<<<<<< HEAD
     if (jwtToken !== undefined) {
       return <Redirect to="/" />
     }
+=======
+
+    if (jwtToken !== undefined) {
+      return <Redirect to="/" />
+    }
+
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
     return (
       <div className="login-form-container">
         <img
           src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+<<<<<<< HEAD
           className="login-website-logo-mobile-image"
+=======
+          className="login-website-logo-mobile-img"
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
           alt="website logo"
         />
         <img
           src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-login-img.png"
+<<<<<<< HEAD
           className="login-image"
+=======
+          className="login-img"
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
           alt="website login"
         />
         <form className="form-container" onSubmit={this.submitForm}>
           <img
             src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+<<<<<<< HEAD
             className="login-website-logo-desktop-image"
+=======
+            className="login-website-logo-desktop-img"
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
             alt="website logo"
           />
           <div className="input-container">{this.renderUsernameField()}</div>

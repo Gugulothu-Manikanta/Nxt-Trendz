@@ -15,6 +15,7 @@
   .all-products-container {
     margin-left: 30px;
     width: 70%;
+<<<<<<< HEAD
     .all-products-section {
       display: flex;
       flex-direction: column;
@@ -48,6 +49,8 @@
 @media screen and (min-width: 768px) {
   .products-heading {
     font-size: 32px;
+=======
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
   }
 }
 

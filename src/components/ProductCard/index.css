@@ -1,21 +1,33 @@
 .product-item {
+<<<<<<< HEAD
   list-style-type: none;
+=======
+  display: flex;
+  flex-direction: column;
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
   margin-bottom: 48px;
   width: 350px;
   flex-grow: 0;
   flex-shrink: 1;
   margin-right: 20px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .product-item {
     width: 300px;
   }
 }
+<<<<<<< HEAD
 .link-item {
   display: flex;
   flex-direction: column;
   text-decoration: none;
 }
+=======
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
 
 .thumbnail {
   width: 100%;

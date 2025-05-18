@@ -22,12 +22,24 @@ const Header = props => {
               alt="website logo"
             />
           </Link>
+<<<<<<< HEAD
           <button type="button" className="nav-mobile-btn">
             <img
               src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
               alt="nav logout"
               className="nav-bar-image"
               onClick={onClickLogout}
+=======
+          <button
+            type="button"
+            className="nav-mobile-btn"
+            onClick={onClickLogout}
+          >
+            <img
+              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
+              alt="nav logout"
+              className="nav-bar-img"
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
             />
           </button>
         </div>
@@ -75,7 +87,11 @@ const Header = props => {
               <img
                 src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png"
                 alt="nav home"
+<<<<<<< HEAD
                 className="nav-bar-image"
+=======
+                className="nav-bar-img"
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
               />
             </Link>
           </li>
@@ -85,7 +101,11 @@ const Header = props => {
               <img
                 src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"
                 alt="nav products"
+<<<<<<< HEAD
                 className="nav-bar-image"
+=======
+                className="nav-bar-img"
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
               />
             </Link>
           </li>
@@ -94,7 +114,11 @@ const Header = props => {
               <img
                 src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-icon.png"
                 alt="nav cart"
+<<<<<<< HEAD
                 className="nav-bar-image"
+=======
+                className="nav-bar-img"
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
               />
             </Link>
           </li>

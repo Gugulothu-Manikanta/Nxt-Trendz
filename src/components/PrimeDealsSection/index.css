@@ -6,13 +6,21 @@
   margin-top: 48px;
 }
 
+<<<<<<< HEAD
 .primedeals-list {
+=======
+.products-list {
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
 }
 
+<<<<<<< HEAD
 .register-prime-image {
+=======
+.register-prime-img {
+>>>>>>> b5a4bc66ffbd8da40f285ab30462e31c5a57cc55
   margin-top: 30px;
 }
 
